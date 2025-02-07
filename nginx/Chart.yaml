@@ -1,6 +1,8 @@
 apiVersion: v2
 kind: Chart
 name: nginx
+metadata:
+  name: nginx
 description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
